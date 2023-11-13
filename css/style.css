@@ -376,3 +376,38 @@ ul li {
 }
 
 /*    PROJECTS    */
+
+/*    MAPS    */
+
+#map {
+  height: 400px;
+  width: 100%;
+  background-color: #fff;
+}
+
+#cont {
+  width: 100%;
+  text-align: center;
+}
+
+#button a{
+  color: #fff;
+  font-family: "Avantgarde", sans-serif;
+  font-size: 3em;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+#button {
+  border-radius: 1em;
+  background-color: #000;
+  border-color: #fff;
+}
+
+#button a:hover {
+  background-color: white;
+  color: black;
+  border: 3px black solid;
+}
+
+/*    MAPS    */
