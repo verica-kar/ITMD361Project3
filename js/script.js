@@ -28,5 +28,25 @@ function initMap() {
   });
 
   flightPath.setMap(map);
+
+  const iw = new google.maps.InfoWindow({
+    content: '<h1 id="iw-h1">Illinois Institute of Technology</h1>' + 
+    '<p class="info">10 W 35th St, Chicago, IL 60616</p>' + 
+    '<p class="info">(312) 567-3000</p>',
+    ariaLabel: "iitIW",
+  });
+
+  const mark = new google.maps.Marker({
+    position: {lat: 41.8349, lng: -87.6270},
+    map,
+    title: "iitMark",
+  }); 
+
+  mark.addListener("click", () => {
+    iw.open({
+      anchor: mark,
+      map,
+    });
+  });
 }
 window.initMap = initMap;

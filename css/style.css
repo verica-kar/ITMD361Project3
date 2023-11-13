@@ -131,7 +131,7 @@ ul li {
   text-decoration: none;
 }
 
-#main-nav ul li a:hover {
+#main-nav ul li a:hover, #button a:hover {
   background-color: #fff;
   color: #000;
 }
@@ -386,28 +386,37 @@ ul li {
 }
 
 #cont {
-  width: 100%;
+  width: 50%;
+  margin: auto;
   text-align: center;
 }
 
 #button a{
   color: #fff;
   font-family: "Avantgarde", sans-serif;
+  padding: 1em;
   font-size: 3em;
   font-weight: lighter;
   text-decoration: none;
 }
 
 #button {
-  border-radius: 1em;
+  margin-top: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background-color: #000;
   border-color: #fff;
 }
 
-#button a:hover {
-  background-color: white;
-  color: black;
-  border: 3px black solid;
+#iw-h1 {
+  font-size: 1em;
+  color: #000;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 0.75em;
+  color: #000;
 }
 
 /*    MAPS    */
