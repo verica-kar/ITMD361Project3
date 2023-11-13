@@ -195,6 +195,7 @@ ul li {
 
 #slider-container {
   background-color: red;
+  display: flex;
   height: 100%;
   position: relative;
   max-width: 60%;
@@ -203,8 +204,9 @@ ul li {
 
 .slider-image {
   height: auto;
-  width: 100%;
+  width: 200%;
   margin: auto;
+  padding: 0;
 }
 
 #prev,
@@ -214,19 +216,18 @@ ul li {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
   margin-top: -22px;
-  padding: 10px;
+  padding: 0.1em;
   color: #fff;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 2em;
   transition: 0.6s ease;
-  background-color: transparent;
+  background-color: black;
   border-color: transparent;
 }
 
 #prev {
-  left: 10px;
+  left: 0;
 }
 
 #next {
@@ -249,12 +250,14 @@ ul li {
 }
 
 #pimgs {
-  padding: 0;
+  background-color: blue;
+  /*padding: 0;
   margin: 0;
-  margin-top: 4em;
+  margin-top: 2em;
   width: 100%;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: middle;*/
+  width: 100%;
 }
 
 #drawing-painting img {
@@ -465,3 +468,39 @@ ul li {
 }
 
 /*    MAPS    */
+
+@media only screen and (min-width: 320px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  main {
+    margin: 40px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  body {
+    font-size: 18px;
+  }
+
+  header {
+    padding: 30px;
+  }
+
+  main {
+    margin: 60px;
+  }
+
+  footer {
+    padding: 30px;
+  }
+}
