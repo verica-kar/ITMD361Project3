@@ -201,13 +201,16 @@ ul li {
   margin: auto;
 }
 
-
+.slider-image {
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
 
 #prev,
 #next {
-    /*transform: translateY(-50%);*/
-    
-    
+  /*transform: translateY(-50%);*/
+  
   cursor: pointer;
   position: absolute;
   top: 50%;
