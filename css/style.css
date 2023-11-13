@@ -191,6 +191,48 @@ ul li {
 
 /*    INDEX: ABOUT ME    */
 
+/*    INDEX: SLIDER    */
+
+#slider-container {
+  background-color: red;
+  height: 100%;
+  position: relative;
+  max-width: 60%;
+  margin: auto;
+}
+
+
+
+#prev,
+#next {
+    /*transform: translateY(-50%);*/
+    
+    
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/*    INDEX: SLIDER    */
+
 /*    DRAWING PAINTING    */
 
 #drawing-painting, #travel{
@@ -405,7 +447,7 @@ ul li {
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: #000;
-  border-color: #fff;
+  border-color: transparent;
 }
 
 #iw-h1 {

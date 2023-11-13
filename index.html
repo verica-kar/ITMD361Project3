@@ -12,6 +12,7 @@
   <style> 
     @import url('https://fonts.cdnfonts.com/css/southernsky'); 
   </style>
+  <script async type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
@@ -67,9 +68,13 @@
           <h2>My Favorite <span class="cursive">drawing</span> and <span class="cursive">paintings</span> That I've Done</h2>
         </div>
         <div id="pimgs">
-          <img src="images/flowerp.jpg" alt="A light grey letter D with painted pink cartoon flowers with gold accents, dark grey leaves, and a blue monarch butterly at the top of the letter">
-          <img src="images/flowerd.JPG" alt="A drawing of a flower with it alternating being in black and white, colored, and having a blue/purple filter over it">
-          <img src="images/world.JPG" alt="A painthing with Earth in the lower left corner and an astronaut looking at it from the right side of the canvas">
+          <div id="slider-container">
+            <img class="slider-image" src="images/flowerp.jpg" alt="A light grey letter D with painted pink cartoon flowers with gold accents, dark grey leaves, and a blue monarch butterly at the top of the letter">
+            <img class="slider-image" src="images/flowerd.JPG" alt="A drawing of a flower with it alternating being in black and white, colored, and having a blue/purple filter over it">
+            <img class="slider-image" src="images/world.JPG" alt="A painthing with Earth in the lower left corner and an astronaut looking at it from the right side of the canvas">
+            <button id="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button id="next" onclick="plusSlides(1)">&#10095;</button>
+          </div>
         </div>
       </div>
     </section>
