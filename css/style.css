@@ -194,7 +194,7 @@ ul li {
 /*    INDEX: SLIDER    */
 
 #slider-container {
-  background-color: red;
+  /*background-color: red;*/
   display: flex;
   height: 100%;
   position: relative;
@@ -222,7 +222,7 @@ ul li {
   font-weight: bold;
   font-size: 2em;
   transition: 0.6s ease;
-  background-color: black;
+  background-color: transparent;
   border-color: transparent;
 }
 
@@ -250,8 +250,8 @@ ul li {
 }
 
 #pimgs {
-  background-color: blue;
-  /*padding: 0;
+  /*background-color: blue;
+  padding: 0;
   margin: 0;
   margin-top: 2em;
   width: 100%;
