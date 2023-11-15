@@ -469,6 +469,8 @@ ul li {
 
 /*    MAPS    */
 
+/*    MEDIA QUERIES    */
+
 @media (min-width: 600px) and (max-width: 900px){
   #main-pg {
     width: 90%;
@@ -514,3 +516,5 @@ ul li {
     width: 40px;
   }
 }
+
+/*    MEDIA QUERIES    */
