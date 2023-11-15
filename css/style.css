@@ -469,38 +469,48 @@ ul li {
 
 /*    MAPS    */
 
-@media only screen and (min-width: 320px) {
-  body {
-    font-size: 16px;
+@media (min-width: 600px) and (max-width: 900px){
+  #main-pg {
+    width: 90%;
   }
 
-  header {
-    padding: 20px;
+  #projects {
+    width: 550px;
   }
 
-  main {
-    margin: 40px;
+  #map {
+    width: 580px;
+    height: 580px;
   }
 
-  footer {
-    padding: 20px;
+  #newsAggSS {
+    width: 80px;
+  }
+
+  #connectFourSS {
+    width: 70px;
   }
 }
 
-@media only screen and (min-width: 375px) {
-  body {
-    font-size: 18px;
+@media (min-width: 340px) and (max-width: 599px){
+  #main-pg {
+    width: 90%;
   }
 
-  header {
-    padding: 30px;
+  #projects {
+    width: 350px;
   }
 
-  main {
-    margin: 60px;
+  #map {
+    width: 330px;
+    height: 330px;
   }
 
-  footer {
-    padding: 30px;
+  #newsAggSS {
+    width: 50px;
+  }
+
+  #connectFourSS {
+    width: 40px;
   }
 }
