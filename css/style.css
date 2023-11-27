@@ -477,20 +477,20 @@ ul li {
   }
 
   #projects {
-    width: 550px;
+    width: 75%;
   }
 
   #map {
-    width: 580px;
-    height: 580px;
+    width: 35em;
+    height: 100%;
   }
 
   #newsAggSS {
-    width: 80px;
+    width: 15%;
   }
 
   #connectFourSS {
-    width: 70px;
+    width: 10%;
   }
 }
 
@@ -500,20 +500,20 @@ ul li {
   }
 
   #projects {
-    width: 350px;
+    width: 70%;
   }
 
   #map {
-    width: 330px;
-    height: 330px;
+    width: 30em;
+    height: 100%;
   }
 
   #newsAggSS {
-    width: 50px;
+    width: 15%;
   }
 
   #connectFourSS {
-    width: 40px;
+    width: 12%;
   }
 }
 
